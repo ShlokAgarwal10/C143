@@ -1,0 +1,40 @@
+body{
+background-size: cover;
+background-position:center;
+}
+.heading{
+    color:white;
+    font-size: 23px;
+    background-color:black;
+    box-shadow:4px 4px 4px white;
+}
+.heading:hover{
+    color:white;
+}
+#instructions,#start,#restart{
+    background-color:#FBFFFF;
+    box-shadow:2px 4px 4px grey;
+}
+#instructions:hover,#start:hover,#restart:hover{
+    transform:scale(0.9);
+}
+#status{
+    color:white;
+    background-color:black;
+}
+h4{
+    margin:0px;
+    line-height:1.5;
+    background-color: white;
+}
+canvas{
+    border:5px solid white;
+    border-radius:15px;
+    box-shadow:10px 10px 10px grey;
+}
+video{
+    background: url('switch.png');
+    background-size: cover;
+    background-position:center;
+    padding:25px;
+}
